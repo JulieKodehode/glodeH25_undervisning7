@@ -1,0 +1,62 @@
+/*
+Hver gang ? brukes er det et navn vi som utvikler finner på.
+*/
+
+// Global JavaScript
+
+console.log("Hello!");
+
+// Datatypes:
+// "" Hermetegn / Quotes = string
+// 1 = number
+// true / false = boolean
+
+// Variables:
+// let = som kan endre verdi
+// const = som IKKE kan endre verdi
+
+let ? = "?"
+? = "?"
+const ? = 28
+const ? = true
+//? = false
+console.log(?)
+console.log(?)
+console.log(?)
+
+var ? = false // var er ikke lenger lov til å bruke
+
+const ? = "?"; 
+const ? = "?";
+const ? = ? + ", " + ? + ".";
+console.log(?);
+
+// FUNCTION:
+// Regular function / function
+function ?() {
+    // Local JavaScript
+    const ? = ?;
+    const ? = ?;
+    const ? = ? + ?;
+    console.log(?);
+};
+?();
+
+function ?() {
+    const ? = "?";
+    const ? = "?";
+    console.log(? + ", " + ? + ".");
+}
+greet();
+
+// Arrow function
+const ? = () => {
+    // Local JavaScript
+    const ? = "?";
+    const ? = ?;
+    const ? = ?;
+    console.log("User name:" + " " + ?);
+    console.log("User online:" + " " + ?);
+    console.log("User level:" + " " + ?);
+};
+?();

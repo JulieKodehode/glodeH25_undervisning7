@@ -7,13 +7,16 @@
     <meta name="viewport" content="width=device-width" />
     <!-- External CSS = link-element som refererer til en css fil -->
     <link rel="stylesheet" href="styles.css" />
+    <!-- Standarisert å ha script-element i head-elementet.
+       - type="module" setter opp at vi venter med JS til nettleseren har lest all HTML før aktivering. 
+       - nøkkelordet defer var mye brukt før men er utdatert med moderne JS. -->
     <script type="module" src="script.js"></script>
   </head>
 
   <body>
     <!-- Body = innhold til nettsiden -->
     <header>
-      <img class="logo" src="home.png" alt="Logo av et hus." />
+      <img class="logo" src="" alt="Logo av et hus." />
       <nav>
         <a href="">Hjem</a>
         <a href="">Om meg</a>
@@ -37,5 +40,7 @@
         ><p>Finn meg på github for å se mer</p></a
       >
     </footer>
+    <!-- Vi kan bruke script-element nederst i body-elementet. Men sterkt frarådet -->
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
