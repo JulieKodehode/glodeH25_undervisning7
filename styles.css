@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px; /* Padding = mellomrom rundt hele elementet */
+  border-bottom: 3px solid black;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+section {
+  height: 100vh;
+}
+
+img {
+  max-width: 300px;
+  height: 300px;
+  background-color: grey;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 16px; /* Gap = mellomrom mellom to eller flere element */
+}
+
+.logo {
+  height: 32px;
+  width: 32px;
+  background-color: white;
+}
